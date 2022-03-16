@@ -4,18 +4,23 @@
     <router-link to="/about">About</router-link>
   </div>
   <router-view/>
+  <Footer />
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+<script>
+import Footer from './components/Footer.vue'
+export default {
+  components: {
+    Footer
+  }
 }
+</script>
 
+
+
+<style>
 #nav {
+  text-align: center;
   padding: 30px;
 }
 
@@ -28,3 +33,4 @@
   color: #42b983;
 }
 </style>
+

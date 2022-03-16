@@ -1,5 +1,6 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="home">
+    <h1>About me</h1>
+    <p class="about_text">My name is Filip Radivojevic, I am from Zitkovac. I am currently studying informatics on Faculty of Natural and Mathematical Sciences in Kosovska Mitrovica.</p>
   </div>
 </template>
